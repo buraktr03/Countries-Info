@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Countries Info</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>What Do You Know About Turkey!</h1>
+
+    <!-- Dropdown Button -->
+    <div class="dropdown">
+      <button
+        class="btn btn-info dropdown-toggle text-light mb-3"
+        type="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Pick a Country
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+      </ul>
+    </div>
+    <!-- card  -->
+    <div class="card" style="width: 25rem;">
+        <img src="https://flagcdn.com/w320/jo.png" class="card-img-top" alt="Jordan flag">
+        <div class="card-body">
+          <h5 class="card-title text-center"> <span class="fw-bold">JORDAN</span></h5>
+          <p class="card-text"><i class="fa-solid fa-earth-oceania"></i><span class="fw-bold"> REGION: </span> </p><hr>
+          <p class="card-text"><i class="fas fa-lg fa-landmark"></i><span class="fw-bold"> CAPITAL: </span> </p><hr>
+          <p class="card-text"><i class="fas fa-lg fa-comments"></i><span class="fw-bold"> LANGUAGES: </span> </p><hr>
+          <p class="card-text"><i class="fas fa-lg fa-money-bill-wave"></i><span class="fw-bold"> CURRENCIES: </span> </p><hr>
+          <p class="card-text"><i class="fa-solid fa-people-group"></i></i><span class="fw-bold"> POPULATION: </span> </p><hr>
+          <p class="card-text"><i class="fa-sharp fa-solid fa-road-barrier"></i><span class="fw-bold"> BORDERS: </span> </p><hr>
+          <p class="card-text"><i class="fa-solid fa-map-location-dot"></i><span class="fw-bold"> MAP: </span><a href= ${googleMaps}
+            target='_blank'> Go to Google Map</a></p>
+          
+        </div>
+      </div>
+
+    <!-- scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/4122e97d6e.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

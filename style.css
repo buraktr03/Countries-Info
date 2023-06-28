@@ -1,0 +1,9 @@
+body {
+  background-image: url(./world_map.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card {
+  background-color: #f8f5f4;
+  border: none;
+}
